@@ -8,10 +8,12 @@ tel.oninput = function() {
     //console.log(telSub)
     if (tel.value.length == 11) {
         telSub.style.backgroundColor = '#337ab7';
-        telSub.onmouseup  = subTel;
+        //telSub.addEventListener('touchstart',subTel,false );
+        telSub.onclick =  subTel;
     } else {
         telSub.style.backgroundColor = '#9b9794';
-        telSub.onmouseup  = subTel;
+        //telSub.addEventListener('touchstart',null,false );
+        telSub.onclick =  null;
     }
 }
 var temp;
@@ -71,6 +73,7 @@ var vCode = document.getElementById('vcode');
 //console.log(vcode)
 //console.log(sub)
 sub.onclick = function() {
+    //window.location.href =  'http://www.baidu.com'; 
         //console.log('111')
         //console.log(vcode)
         //console.log(vcode.value)
@@ -98,7 +101,8 @@ sub.onclick = function() {
             async: false,
             data: "req" + "=" + "{" + "'inviteCode':" + strToJson(dataid) + "," + "'cellphone':" + strToJson(cellphone) + "}",
             success: function(data) {
-                console.log(data);
+
+               window.location.href =  'http://www.baidu.com'; 
             }
         })
     }
