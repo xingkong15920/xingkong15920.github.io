@@ -8,10 +8,10 @@ tel.oninput = function() {
     //console.log(telSub)
     if (tel.value.length == 11) {
         telSub.style.backgroundColor = '#337ab7';
-        telSub.onclick = subTel;
+        telSub.onclick = telSub.touchend = subTel;
     } else {
         telSub.style.backgroundColor = '#9b9794';
-        telSub.onclick = null;
+        telSub.onclick = telSub.touchend = null;
     }
 }
 var temp;
