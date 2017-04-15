@@ -1,0 +1,28 @@
+/* css样式初始化 */
+
+body,h1,h3,dl,dd{
+	margin: 0;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+form{
+	margin:0;
+}
+a{
+	text-decoration:none;
+	-webkit-tap-highlight-color:transparent;
+}
+img{
+	vertical-align:top;
+	border: none;
+	vertical-align: text-bottom;
+}
+input{
+	margin:0;
+	padding:0;
+	border-width: 1px;
+	-webkit-appearance:none;
+}

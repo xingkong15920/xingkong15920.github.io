@@ -1,0 +1,113 @@
+
+html{
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	height: 100%;
+	overflow: auto;
+	font:0.3125rem Arial,Helvetica,STHeiTi,sans-serif;
+	/* background-color: #dc87af; */
+}
+a{
+	-webkit-tap-highlight-color:transparent;
+}
+img{
+	width: 100%;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/* 头部设置 */
+.head_box{
+	width: 100%;
+	height: 120px;
+	margin-bottom: 20px;
+}
+.head_box img{
+	width: 3rem;
+	margin: 10px;
+}
+/* 活动内容及标题设置 */
+.acText{
+	width: 100%;
+	text-align: center;
+	font-size:0.8rem;
+	margin-bottom: 0.3px;
+}
+/* 图片展示 */
+.actImg{
+	width: 100%;
+	padding-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.actImg img{
+	width: 70%;
+	margin-left:15%;
+}
+/* 手机号验证 */
+.telNum{
+	width: 80%;
+	margin-left: 10%;
+	border: 1px solid black;
+	height: 1rem;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+.telTxt{
+	font-size: 0.4rem;
+	line-height: 1rem;
+	text-align: left;
+	padding: 0 0.1rem;
+	width: 1.8rem;
+}
+.tel{
+	height: 100%;
+	width: 50%;
+}
+.tel input{
+	width: 100%;
+	height: 0.8rem;
+	border: none;
+	font-size: 0.4rem;
+	margin-left: 0.05rem;
+	margin-top: 0.1rem;
+}
+/* 验证按钮 */
+.telSub{
+	height: 1rem;
+	vertical-align: middle;
+	padding-top: 0.2rem;
+	padding-right: 0.1rem;
+}
+#telSub{
+	line-height: 0.6rem;
+	border: 1px solid black;
+	display: inline-block;
+	width: 1.5rem;
+	height: 0.6rem;
+	font-size: 0.4rem;
+	text-align: center;
+	background-color: #9b9794;
+	color: #fff;
+}
+/* 点击注册的按钮 */
+.sub{
+	width: 100%;
+	text-align: center;
+}
+.sub input{
+	display: inline-block;
+	width: 4rem;
+	height: 0.8rem;
+	font-size: 0.5rem;
+	border: 1px solid #2040e2;
+}
