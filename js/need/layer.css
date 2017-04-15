@@ -40,7 +40,7 @@
     display: inline-block;
     text-align: left;
     background-color: #fff;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     border-radius: 5px;
     box-shadow: 0 0 8px rgba(0, 0, 0, .1);
     pointer-events: auto;
@@ -115,7 +115,7 @@
 
 .layui-m-layer0 .layui-m-layerchild {
     width: 90%;
-    max-width: 7rem;
+    max-width: 8rem;
 }
 
 .layui-m-layer1 .layui-m-layerchild {
@@ -151,8 +151,8 @@
 }
 
 .layui-m-layercont {
-    padding: 50px 30px;
-    line-height: 22px;
+    /* padding: 50px 30px; */
+    line-height: 1.2rem;
     text-align: center
 }
 
